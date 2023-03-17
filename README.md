@@ -145,7 +145,7 @@ contract MyToken is ERC20 {
 }
 ```
 
-# 🤝 Contribuir
+## 🤝 Contribuir
 
 Este proyecto sigue la especificación [all-contributors](https://github.com/all-contributors/all-contributors). Contribuciones de todo tipo son bienvenidas!
 
