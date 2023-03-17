@@ -149,4 +149,4 @@ contract MyToken is ERC20 {
 
 Este proyecto sigue la especificación [all-contributors](https://github.com/all-contributors/all-contributors). Contribuciones de todo tipo son bienvenidas!
 
-Si encuentras algún error en la documentación o en el código no dudes crear un [issue](https://github.com/natachadelarosa/smart-contracts-standards/issues) o mejor aun un [pull-request](https://github.com/natachadelarosa/smart-contracts-standards/pulls)
+Si encuentras algún error en la documentación o en el código no dudes crear un [issue](https://github.com/natachadelarosa/smart-contracts-standards/issues) o mejor aún un [pull-request](https://github.com/natachadelarosa/smart-contracts-standards/pulls).
