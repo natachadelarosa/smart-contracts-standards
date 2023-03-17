@@ -1,8 +1,8 @@
 # Demo Smart Contracts Standards
 
-Este proyecto muestra el uso básico de la libreria de contratos de OpenZeppelin.
+Este proyecto muestra el uso básico de la librería de contratos de OpenZeppelin.
 
-Esta compuesto por un contracto de ejemplo `contracts/MyToken.sol`, un test para el contrato en `test/MyToken.js` y un script para desplegar el contracto `scripts/deploy.js` en la red de prueba.
+Esta compuesto por un contrato de ejemplo `contracts/MyToken.sol`, un test para el contrato en `test/MyToken.js` y un script para desplegar el contrato `scripts/deploy.js` en la red de prueba.
 
 Este proyecto utiliza:
 
@@ -19,15 +19,16 @@ Este proyecto utiliza:
 
 ## 🔩 Requerimientos
 
-Necesitas tener esto instalado para ejecutar este proyecto:
+Necesitas tener instaladas estas herramientas para ejecutar este proyecto:
 
 - [Node](https://nodejs.org/en)
+- Editor de código de tu preferencia
 
 ## 🏄 Empezar
 
 Para iniciar tu ambiente de desarrollo local en la terminal debes ejecutar estos comandos:
 
-1. Clonar repositrio e instalar dependencias:
+1. Clonar repositorio e instalar las dependencias:
 
 - **Clonar el repositorio**:
 
@@ -49,20 +50,20 @@ nvm use stable #OPCIONAL
 npm install
 ```
 
-2. En la terminal ejecuta el siguiente comando para crear el nodo de prueba:
+2. En la terminal ejecuta el siguiente comando para ejecutar la red de prueba:
 
 ```bash
 npx hardhat node  
 ```
 
-3. Deja ejecutando el nodo y en otra terminal puedes ejecutar el comando:
+3. Deja ejecutando el nodo y en otra terminal ejecuta el comando:
 
 ```bash
 npx hardhat test
 ```
-Para ejecutar las pruebas de este proyecto
+Para ejecutar las pruebas del contrato
 
-4. Para desplegar el contrato en la red de pruebas ejecuta el comando:
+4. Para desplegar el contrato en la red de prueba ejecuta el comando:
 
 ```bash
 npx hardhat run scripts/deploy.js
